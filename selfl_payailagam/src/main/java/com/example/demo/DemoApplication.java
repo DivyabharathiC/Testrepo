@@ -14,6 +14,7 @@ public class DemoApplication {
 		//No qualifying bean of type 'com.example.demo.Home' available----> @component not added ina particular class so that this exception showing
 		//ConfigurableApplicationContext context=
 				SpringApplication.run(DemoApplication.class, args);
+		System.out.printf("newly added");
 
 	//Home h =context.getBean(Home.class);
 	}

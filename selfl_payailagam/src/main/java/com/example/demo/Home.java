@@ -1,9 +1,12 @@
 package com.example.demo;
 
 
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
-@Component()
+import javax.annotation.sql.DataSourceDefinition;
+
+@Data
 public class Home {
     //POJO class
     private String owner;
