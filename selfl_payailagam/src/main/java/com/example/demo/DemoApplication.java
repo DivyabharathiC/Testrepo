@@ -15,6 +15,8 @@ public class DemoApplication {
 		//ConfigurableApplicationContext context=
 				SpringApplication.run(DemoApplication.class, args);
 		System.out.printf("newly added");
+		System.out.printf("branch1 added");
+		System.out.printf("branch2 added");
 
 	//Home h =context.getBean(Home.class);
 	}
