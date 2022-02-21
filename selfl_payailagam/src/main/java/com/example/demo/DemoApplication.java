@@ -15,8 +15,15 @@ public class DemoApplication {
 		//ConfigurableApplicationContext context=
 				SpringApplication.run(DemoApplication.class, args);
 		System.out.printf("newly added");
+<<<<<<< Updated upstream
+=======
+		System.out.printf("branch1 added");
+		System.out.printf("branch2 added");
+		System.out.printf("branch3 added");
+>>>>>>> Stashed changes
 
-	//Home h =context.getBean(Home.class);
+
+		//Home h =context.getBean(Home.class);
 	}
 
 }
